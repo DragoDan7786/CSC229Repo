@@ -12,7 +12,7 @@ public class Class1 {
     
     int id;
     String Name;
-    int[] arr;
+    int[] arr = {3, 5, 6, 1, 10};
 
     public int getId() {
         return id;
@@ -32,6 +32,14 @@ public class Class1 {
     
     
     public static void main(String args[]){
+       Class1 nc = new Class1();
+       
+       for(int i = 0 ; i < 5 ; i++){
+           System.out.println("The value of of the array element of " + i + " is " + nc.arr[i]);
+       }
+        
+        
+        
         
     }
     
